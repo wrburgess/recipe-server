@@ -1,0 +1,4 @@
+recipe
+======
+
+Recipe document standard
