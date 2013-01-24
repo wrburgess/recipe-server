@@ -1,11 +1,19 @@
 source 'https://rubygems.org'
 
+# core
+ruby '1.9.3'
 gem 'rails', '3.2.11'
 
-gem 'pg'
+# plugins
+gem 'haml-rails', '0.3.5'
+gem 'json', '1.7.6'
+gem 'pg', '0.14.1'
+gem 'sass-rails', '3.2.6'
+gem 'settingslogic', '2.0.9'
+gem 'thin', '1.5.0'
 
+#assets-specific
 group :assets do
-  gem 'sass-rails', '3.2.3'
   gem 'uglifier', '1.0.3'
 end
 
