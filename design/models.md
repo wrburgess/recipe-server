@@ -1,24 +1,5 @@
-# recipe server
+# Models
 
-*A recipe server for the recipe app*
-
-## Tasks
-
-### Server Tasks
-
-* wireframe designs
-* server app setup
-* server seed data
-* browser views
-* crud for users
-* crud for admins
-* api construction
-
-### Client Tasks
-
-* native client construction
-
-## Models
 * Recipe
 * Ingredient
 * IngredientList
@@ -28,7 +9,8 @@
 * Timer
 * Note
 
-### Recipe
+## Recipe
+
 has_many :ingredients
 has_many :tools
 * name
@@ -39,7 +21,8 @@ has_many :tools
 * cook_time
 * servings
 
-### Step
+## Step
+
 belongs_to :recipe
 has_many :ingredients
 has_many :tools
@@ -48,17 +31,21 @@ has_many :tools
 * type
 * weight
 
-### Ingredient
+## Ingredient
+
 has_many :steps
 * name
 
-### Tool
+## Tool
+
 has_many :steps
 
-### Image
+## Image
+
 * name
 * reference
 
-### ImageUse
+## ImageUse
+
 belongs_to :image
 use_type: [:recipe, :step, :ingredient, :tool]
