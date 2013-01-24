@@ -1,4 +1,4 @@
-class Browser::StaticController < ApplicationController
+class Browser::StaticController < BrowserController
 
   def index
     @page_title = "Home"
