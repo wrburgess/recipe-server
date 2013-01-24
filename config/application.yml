@@ -1,0 +1,11 @@
+defaults: &defaults
+  app_name: recipe-server
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
