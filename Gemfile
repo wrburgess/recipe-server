@@ -14,7 +14,7 @@ gem 'thin', '1.5.0'
 
 #assets-specific
 group :assets do
-  gem 'uglifier', '1.0.3'
+  gem 'uglifier', '1.3.0'
 end
 
 #environment-specific
