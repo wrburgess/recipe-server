@@ -3,7 +3,7 @@
 ## Server Tasks
 
 * wireframe designs
-* server app setup
+* ~~server app setup~~
 * server seed data
 * browser views
 * crud for users
