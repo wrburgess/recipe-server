@@ -11,8 +11,8 @@
 
 ## Recipe
 
-has_many :ingredients
-has_many :tools
+has_many :ingredients  
+has_many :tools  
 * name
 * author
 * description
@@ -23,9 +23,9 @@ has_many :tools
 
 ## Step
 
-belongs_to :recipe
-has_many :ingredients
-has_many :tools
+belongs_to :recipe  
+has_many :ingredients  
+has_many :tools  
 * name
 * description
 * type
@@ -33,12 +33,12 @@ has_many :tools
 
 ## Ingredient
 
-has_many :steps
+has_many :steps  
 * name
 
 ## Tool
 
-has_many :steps
+has_many :steps  
 
 ## Image
 
@@ -47,5 +47,5 @@ has_many :steps
 
 ## ImageUse
 
-belongs_to :image
+belongs_to :image  
 use_type: [:recipe, :step, :ingredient, :tool]
