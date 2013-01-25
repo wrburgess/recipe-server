@@ -2,8 +2,9 @@
 
 ## Server Tasks
 
-* wireframe designs
+* ~~mockup designs~~
 * ~~server app setup~~
+* HTML/CSS/JS mockups
 * server seed data
 * browser views
 * crud for users
