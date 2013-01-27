@@ -23,6 +23,7 @@ group :test, :development do
   gem 'binding_of_caller', '0.6.8'
   gem 'debugger', '1.2.4'
   gem 'factory_girl_rails', '4.2.0'
+  gem 'meta_request', '0.2.1'
   gem 'rspec-rails', '2.12.2'
   gem 'shoulda', '3.3.2'
 end

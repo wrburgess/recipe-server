@@ -7,7 +7,9 @@ class Browser::StaticController < BrowserController
   end
 
   def mock
-
+    @page_title = "Mock"
+    @body_id = "mock"
+    @body_class = "page"
   end
 
 end
