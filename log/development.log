@@ -3126,3 +3126,29 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:20:40 -0600
 Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/mock" for 127.0.0.1 at 2013-01-27 20:21:51 -0600
+Processing by Browser::StaticController#mock as HTML
+  Rendered browser/static/mock.html.haml within layouts/browser (0.2ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:21:51 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:21:51 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/rails.js?body=1" for 127.0.0.1 at 2013-01-27 20:21:51 -0600
+Served asset /lib/rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/jquery-1.9.0.js?body=1" for 127.0.0.1 at 2013-01-27 20:21:51 -0600
+Served asset /lib/jquery-1.9.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:21:51 -0600
+Served asset /style.css - 304 Not Modified (0ms)
