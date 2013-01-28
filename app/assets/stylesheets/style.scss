@@ -1,3 +1,14 @@
+$white: #FFFFF5;
+$black: #1A1A18;
+$step-pending-color: #FFFF99;
+$step-active-color: #99FF33;
+$step-warning-color: #FF0000;
+$step-completed-color: #e0e0e0;
+$timer-pending-color: #FFFF99;
+$timer-active-color: #99FF33;
+$timer-warning-color: #FF0000;
+$step-timer-completed-color: #47475E;
+
 /* reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
@@ -8,7 +19,7 @@ blockquote:before, blockquote:after,q:before, q:after {content: '';content: none
 table {border-collapse: collapse; border-spacing: 0;}
 
 body {
-
+  color: $black;
 }
 
 #wrapper {
@@ -106,44 +117,43 @@ body {
       overflow: auto;
       width: 100%;
       padding: 10px 0 10px 0;
-
-      .step-number {
-        float: left;
-        font-size: 1.8em;
-        width: 7%;
-      }
-
-      .step-content {
-        float: left;
-        font-size: 1.2em;
-        width: 80%;
-      }
-
-      .step-timer {
-        width: 13%;
-      }
-
-      .pending {
-
-      }
-
-      .active {
-
-      }
-
-      .warning {
-
-      }
-
-      .completed {
-
-      }
-
     }
 
   }
 
+}
 
+.step-number {
+  float: left;
+  font-size: 1.8em;
+  text-align: center;
+  width: 7%;
+}
+
+.step-content {
+  float: left;
+  font-size: 1.2em;
+  width: 75%;
+}
+
+li.pending {
+  background-color: $step-pending-color;
+  color: $black;
+}
+
+li.active {
+  background-color: $step-active-color;
+  color: $black;
+}
+
+li.warning {
+  background-color: $step-warning-color;
+  color: $black;
+}
+
+li.completed {
+  background-color: $step-completed-color;
+  color: $black;
 }
 
 .timer {
@@ -164,30 +174,30 @@ body {
   font-family: arial;
   font-size: 15px;
   font-weight: bold;
+  margin: 0 5px 0 0;
   padding: 6px 24px;
   text-decoration: none;
   text-shadow: 1px 1px 0px #ffffff;
+}
 
-  .pending {
-    background-color: #ededed;
-    color: #777777;
-  }
+.timer.pending {
+  background-color: #ededed;
+  color: #777777;
+}
 
-  .active {
-    background-color: #ededed;
-    color: #777777;
-  }
+.timer.active {
+  background-color: #ededed;
+  color: #777777;
+}
 
-  .warning {
-    background-color: #ededed;
-    color: #777777;
-  }
+.timer.warning {
+  background-color: #ededed;
+  color: #777777;
+}
 
-  .completed {
-    background-color: #ededed;
-    color: #777777;
-  }
-
+.timer.completed {
+  background-color: #ededed;
+  color: #777777;
 }
 
 #photos {
