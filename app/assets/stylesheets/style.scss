@@ -1,0 +1,211 @@
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+body {
+
+}
+
+#wrapper {
+  width: 100%;
+}
+
+#page {
+  margin: 5px auto 0 auto;
+  width: 600px;
+}
+
+#header {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.button {
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+  background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+  background-color: #ededed;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  color: #777777;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px #ffffff;
+}
+
+.button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+  background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+  background-color: #dfdfdf;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+#back-button {
+
+}
+
+#recipe-buttons {
+  display: inline;
+  margin: 0 auto;
+}
+
+#photo-button {
+
+}
+
+#ingredients-button {
+
+}
+
+#tools-button {
+
+}
+
+#settings-button {
+  float: right;
+}
+
+#content {
+
+}
+
+#recipe-header {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5em;
+  padding: 10px 0 10px 0;
+}
+
+#steps {
+  font-family: 'Droid Serif', serif;
+
+  ul {
+
+    li {
+      border-color: #000000;
+      border-width: 1px 0 1px 0;
+      border-style: dashed;
+      list-style: none;
+      overflow: auto;
+      width: 100%;
+      padding: 10px 0 10px 0;
+
+      .step-number {
+        float: left;
+        font-size: 1.8em;
+        width: 7%;
+      }
+
+      .step-content {
+        float: left;
+        font-size: 1.2em;
+        width: 80%;
+      }
+
+      .step-timer {
+        width: 13%;
+      }
+
+      .pending {
+
+      }
+
+      .active {
+
+      }
+
+      .warning {
+
+      }
+
+      .completed {
+
+      }
+
+    }
+
+  }
+
+
+}
+
+.timer {
+  float: right;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+  background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px #ffffff;
+
+  .pending {
+    background-color: #ededed;
+    color: #777777;
+  }
+
+  .active {
+    background-color: #ededed;
+    color: #777777;
+  }
+
+  .warning {
+    background-color: #ededed;
+    color: #777777;
+  }
+
+  .completed {
+    background-color: #ededed;
+    color: #777777;
+  }
+
+}
+
+#photos {
+
+}
+
+#tools {
+
+}
+
+#ingredients {
+
+}
+
+#footer {
+  background-color: #e0e0e0;
+  font-size: 0.8em;
+  padding: 5px 0 5px 0;
+  text-align: center;
+}
+  

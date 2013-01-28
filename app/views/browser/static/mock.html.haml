@@ -1,37 +1,87 @@
 #header
-  #back-button
-  #photo-button
-  #ingredients-button
-  #tools-button
-  #settings-button
+  #back-button.button
+    << Back
+  #recipe-buttons
+    #photo-button.button
+      Pics
+    #ingredients-button.button
+      Ingredients
+    #tools-button.button
+      Tools
+  #settings-button.button
+    \#
 #content
   #recipe-header
+    Recipe Name and Description
   #steps
     %ul
       %li.completed
-        Step 1
+        .step-number
+          1
+        .step-content
+          Bacon ipsum dolor sit amet pork loin ground round ham tenderloin
       %li.completed
-        Step 2
-        .timer.completed
+        .step-number
+          2
+        .step-content
+          Doner meatball bacon rump kielbasa pastrami brisket drumstick ribeye
+        .step-timer
+          .timer.completed
           0:00
       %li.active
-        Step 3
+        .step-number
+          3 
+        .step-content
+          Pancetta spare ribs capicola pork loin
       %li.active
-        Step 4
-        .timer.active
+        .step-number
+          4 
+        .step-content
+          Turkey pig strip steak drumstick, tail bacon pork
+        .step-timer
+          .timer.active
           1:15
       %li.pending
-        Step 5
-        .timer.pending
+        .step-number
+          5 
+        .step-content
+          Ribs capicola cow sirloin turkey
+        .step-timer
+          .timer.pending
           3:00
       %li.pending
-        Step 6
+        .step-number
+          6 
+        .step-content
+          Bacon rump turducken chicken ball tip shank
       %li.pending
-        Step 7
-        .timer.pending
-          3:00
+        .step-number
+          7 
+        .step-content
+          Salami pancetta jowl pork loin pork ham
+        .step-timer
+          .timer.pending
+            3:00
       %li.pending
-        Step 8
+        .step-number
+          8 
+        .step-content
+          Frankfurter salami pancetta jowl pork loin
+      %li.pending
+        .step-number
+          9 
+        .step-content
+          Frankfurter salami pancetta jowl pork loin
+      %li.pending
+        .step-number
+          10 
+        .step-content
+          Frankfurter salami pancetta jowl pork loin
+      %li.pending
+        .step-number
+          11 
+        .step-content
+          Frankfurter salami pancetta jowl pork loin
   #photos
   #tools
   #ingredients
