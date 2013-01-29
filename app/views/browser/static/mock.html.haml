@@ -2,14 +2,68 @@
   #back-button.button
     << Back
   #recipe-buttons
-    #photo-button.button
-      Pics
+
+    #photos-button.button
+      %a.open{ href: "#" } Photos
+
+    #photos
+      %h2 Photos
+      .photo
+        %img{ src: "http://placehold.it/90x90" }
+      .photo
+        %img{ src: "http://placehold.it/90x90" }
+      .photo
+        %img{ src: "http://placehold.it/90x90" }
+      .photo
+        %img{ src: "http://placehold.it/90x90" }
+      .photo
+        %img{ src: "http://placehold.it/90x90" }
+      .photo
+        %img{ src: "http://placehold.it/90x90" }
+
     #ingredients-button.button
-      Ingredients
+      %a{ href: "#" } Ingredients
+
+    #ingredients
+      %h2 Ingredients
+      %ul
+        %li Frankfurter, 1 Large
+        %li Salami, 1/2 cup
+        %li Jowl, 3/4 teaspoon
+        %li Ribs, 5 pieces
+        %li Turkey, 4 ounces
+        %li Pancetta, 2 slices
+        %li Pork, 2 links
+        %li Frankfurter, 1 Large
+        %li Salami, 1/2 cup
+        %li Jowl, 3/4 teaspoon
+        %li Ribs, 5 pieces
+        %li Turkey, 4 ounces
+        %li Pancetta, 2 slices
+        %li Pork, 2 links
+
     #tools-button.button
-      Tools
+      %a{ href: "#" } Tools
+
+    #tools
+      %h2 Tools
+      %ul
+        %li Knife
+        %li Spoon
+        %li Fork
+        %li Big Pot
+        %li Small Pot
+        %li Paper Towels
+        %li Knife
+        %li Spoon
+        %li Fork
+        %li Big Pot
+        %li Small Pot
+        %li Paper Towels
+
   #settings-button.button
     \#
+
 #content
   #recipe-header
     Recipe Name and Description
@@ -78,8 +132,6 @@
           11 
         .step-content
           Frankfurter salami pancetta jowl pork loin
-  #photos
-  #tools
-  #ingredients
+
 #footer
   All Rights Reserved. 2013.

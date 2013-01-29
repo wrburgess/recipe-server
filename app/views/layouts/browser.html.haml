@@ -11,6 +11,24 @@
     = stylesheet_link_tag    "application", media: "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
+    :javascript
+      $(document).ready(function(){
+        $('#photos-button').click(function() {
+          $('#photos').toggle();
+          $('#ingredients').hide();
+          $('#tools').hide();
+        });
+        $('#ingredients-button').click(function() {
+          $('#photos').hide();
+          $('#ingredients').toggle();
+          $('#tools').hide();
+        });
+        $('#tools-button').click(function() {
+          $('#photos').hide();
+          $('#ingredients').hide();
+          $('#tools').toggle();
+        });
+      });
   %body{ id: "#{@body_id}", class: "#{@body_class}"}
     #wrapper
       #page
