@@ -22,7 +22,7 @@ end
 group :test, :development do
   gem 'better_errors', '0.5.0'
   gem 'binding_of_caller', '0.6.8'
-  gem 'debugger', '1.3.0'
+  gem 'debugger', '1.3.1'
   gem 'factory_girl_rails', '4.2.1'
   gem 'meta_request', '0.2.1'
   gem 'rspec-rails', '2.12.2'
