@@ -20,7 +20,7 @@ end
 #environment-specific
 group :test, :development do
   gem "better_errors", "0.6.0"
-  gem "binding_of_caller", "0.6.9"
+  gem "binding_of_caller", "0.7.1"
   gem "debugger", "1.3.1"
   gem "factory_girl_rails", "4.2.1"
   gem "meta_request", "0.2.1"
