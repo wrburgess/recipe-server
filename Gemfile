@@ -19,11 +19,11 @@ end
 
 #environment-specific
 group :test, :development do
-  gem "better_errors", "0.6.0"
+  gem "better_errors", "0.7.0"
   gem "binding_of_caller", "0.7.1"
   gem "debugger", "1.3.1"
   gem "factory_girl_rails", "4.2.1"
   gem "meta_request", "0.2.1"
-  gem "rspec-rails", "2.12.2"
+  gem "rspec-rails", "2.13.0"
   gem "shoulda", "3.3.2"
 end
