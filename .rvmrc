@@ -1,1 +1,1 @@
-rvm use ruby-1.9.3-p392@recipe-server --create
+rvm use ruby-1.9.3-p194@recipe-server --create
