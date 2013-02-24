@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     actionmailer (3.2.12)
       actionpack (= 3.2.12)
@@ -47,7 +47,7 @@ GEM
       debugger-ruby_core_source (~> 1.1.8)
     debugger-linecache (1.1.2)
       debugger-ruby_core_source (>= 1.1.1)
-    debugger-ruby_core_source (1.1.8)
+    debugger-ruby_core_source (1.1.9)
     diff-lcs (1.2.1)
     erubis (2.7.0)
     eventmachine (1.0.0)
@@ -73,9 +73,9 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    meta_request (0.2.1)
+    meta_request (0.2.2)
       rack-contrib
-      rails
+      railties
     metaclass (0.0.1)
     mime-types (1.21)
     mocha (0.10.5)
@@ -121,7 +121,7 @@ GEM
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
       rspec-mocks (~> 2.13.0)
-    sass (3.2.5)
+    sass (3.2.6)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -163,7 +163,7 @@ DEPENDENCIES
   factory_girl_rails (= 4.2.1)
   haml-rails (= 0.4.0)
   json (= 1.7.7)
-  meta_request (= 0.2.1)
+  meta_request (= 0.2.2)
   pg (= 0.14.1)
   rails (= 3.2.12)
   rspec-rails (= 2.13.0)
