@@ -1,9 +1,9 @@
 language:
   - ruby
 rvm:
-  - 1.9.3-p329
+  - 1.9.3-p327
 env:
-  - RAILS=3.2.11
+  - RAILS=3.2.12
 branches:
   only:
     - master
