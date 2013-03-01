@@ -2,7 +2,6 @@
 
 * Recipe
 * Ingredient
-* IngredientList
 * Tool
 * ToolList
 * Step
@@ -11,8 +10,10 @@
 
 ## Recipe
 
-has_many :ingredients  
-has_many :tools  
+has_many :steps
+has_many :ingredients, :through => :steps  
+has_many :tools, :through => :steps   
+
 * name
 * author
 * description
@@ -26,14 +27,27 @@ has_many :tools
 belongs_to :recipe  
 has_many :ingredients  
 has_many :tools  
+
 * name
 * description
 * type
 * weight
 
+## StepIngredient
+
+* step_id
+* ingredient_id
+* amount
+
+## StepTool
+
+* step_id
+* tool_id
+
 ## Ingredient
 
 has_many :steps  
+
 * name
 
 ## Tool
