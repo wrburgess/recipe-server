@@ -1,7 +1,7 @@
 language:
   - ruby
 rvm:
-  - 1.9.3
+  - 1.9.3-p329
 env:
   - RAILS=3.2.11
 branches:
