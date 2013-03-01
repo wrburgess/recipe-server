@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe Step do
+describe Formula do
 
-  
+ 
 
 end
