@@ -166,6 +166,7 @@ DEPENDENCIES
   meta_request (= 0.2.2)
   pg (= 0.14.1)
   rails (= 3.2.12)
+  rdoc (>= 2.4.2)
   rspec-rails (= 2.13.0)
   sass-rails (= 3.2.6)
   settingslogic (= 2.0.9)
