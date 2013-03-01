@@ -8,7 +8,7 @@
 * Timer
 * Note
 
-## Recipe
+## Formula
 
 has_many :steps
 has_many :ingredients, :through => :steps  
@@ -24,7 +24,7 @@ has_many :tools, :through => :steps
 
 ## Step
 
-belongs_to :recipe  
+belongs_to :formula  
 has_many :ingredients  
 has_many :tools  
 

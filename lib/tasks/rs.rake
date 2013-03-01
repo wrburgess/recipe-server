@@ -1,7 +1,7 @@
 namespace :rs do
 
   desc "Reload the databases: drop, create, migrate, test_prepare"
-  task :reload => :environment do
+  task :rebuild => :environment do
     input = ''
     STDOUT.puts "Drop and recreate all databases? y[es] or n[o]"
     input = STDIN.gets.chomp
