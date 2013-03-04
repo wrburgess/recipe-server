@@ -1,0 +1,28 @@
+name,description,weight,formula_id
+step1,stir the pot,1,1
+step2,spice the meat,2,1
+step3,clean the table,3,1
+step4,preheat the oven,4,1
+step5,slice the veggies,5,1
+step6,add garlic and spice,6,1
+step7,serve to your guests,7,1
+step8,stir the pot,1,2
+step9,spice the meat,2,2
+step10,clean the table,3,2
+step11,preheat the oven,4,2
+step12,slice the veggies,5,2
+step13,add garlic and spice,6,2
+step14,serve to your guests,7,2
+step15,stir the pot,1,3
+step16,spice the meat,2,3
+step17,clean the table,3,3
+step18,preheat the oven,4,3
+step19,slice the veggies,5,3
+step20,add garlic and spice,6,3
+step21,serve to your guests,7,3
+step22,stir the pot,1,4
+step23,spice the meat,2,4
+step24,clean the table,3,4
+step25,preheat the oven,4,4
+step26,slice the veggies,5,4
+step27,add garlic and spice,6,4

@@ -1,7 +1,11 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+require 'csv'
+
+CSV.foreach("#{Rails.root}/db/fill/formulas.csv", :headers => :first_row) do |row|
+  Formula.create!(name: row[0], description: row[1])
+  puts "Formula created: #{row[0]}, #{row[1]}"
+end
+
+CSV.foreach("#{Rails.root}/db/fill/steps.csv", :headers => :first_row) do |row|
+  Step.create!({ name: row[0], description: row[1], weight: row[2], formula_id: row[3] }, without_protection: true)
+  puts "Step created: #{row[0]}, #{row[1]}, #{row[2]}, #{row[3]}"
+end
