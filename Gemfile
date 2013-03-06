@@ -16,7 +16,7 @@ group :assets do
 end
 
 group :test, :development do
-  gem 'debugger', '1.3.3'
+  gem 'debugger', '1.4.0'
   gem 'factory_girl_rails', '4.2.1'
   gem 'rspec-rails', '2.13.0'
   gem 'shoulda', '3.3.2'
