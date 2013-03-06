@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 ruby '1.9.3'
 gem 'rails', '3.2.12'
 
-gem 'active_model_serializers', '0.6.0'
+gem 'active_model_serializers', '0.7.0'
 gem 'haml-rails', '0.4.0'
 gem 'json', '1.7.7'
 gem 'pg', '0.14.1'
