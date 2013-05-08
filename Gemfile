@@ -12,7 +12,7 @@ gem 'unicorn', '4.6.2'
 group :assets do
   gem 'haml-rails', '0.4.0'
   gem 'sass-rails', '3.2.6'
-  gem 'uglifier', '1.3.0'
+  gem 'uglifier', '2.0.1'
 end
 
 group :test, :development do
