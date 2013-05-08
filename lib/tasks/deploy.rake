@@ -11,8 +11,8 @@ namespace :deploy do
 
   HEROKU_ACCOUNT = "wrburgess"
   MAINLINE_BRANCH = "master"
-  STAGING_REMOTE = "stage"
-  PRODUCTION_REMOTE = "prod"
+  STAGING_REMOTE = "staging"
+  PRODUCTION_REMOTE = "production"
 
   def make_git_timestamp
     "#{@env}-deploy-#{Time.now.to_s.gsub(/:/, "-").gsub(/\s/, "-").gsub(/--/, "-")}"
