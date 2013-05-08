@@ -18,6 +18,6 @@ end
 group :test, :development do
   gem 'debugger', '1.5.0'
   gem 'factory_girl_rails', '4.2.1'
-  gem 'rspec-rails', '2.13.0'
-  gem 'shoulda', '3.4.0'
+  gem 'rspec-rails', '2.13.1'
+  gem 'shoulda', '3.5.0'
 end
