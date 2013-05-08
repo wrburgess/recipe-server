@@ -9,8 +9,8 @@ end
 
 namespace :server do
 
-  STAGING_APP = "recipe-server-stage"
-  PRODUCTION_APP = "recipe-server-prod"
+  STAGING_APP = "recipe-staging"
+  PRODUCTION_APP = "recipe-production"
 
   def restart_app(app)
     system_try_and_fail "heroku restart --app=#{app}"
