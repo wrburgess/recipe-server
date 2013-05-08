@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Recipe::Application.load_tasks
+RecipeServer::Application.load_tasks

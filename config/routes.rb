@@ -1,4 +1,4 @@
-Recipe::Application.routes.draw do
+RecipeServer::Application.routes.draw do
 
   namespace :admin do
 
