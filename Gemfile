@@ -5,6 +5,7 @@ gem 'rails', '3.2.13'
 
 gem 'active_model_serializers', '0.8.1'
 gem 'json', '1.7.7'
+gem 'newrelic_rpm', '3.6.1.88'
 gem 'pg', '0.15.1'
 gem 'settingslogic', '2.0.9'
 gem 'unicorn', '4.6.2'
