@@ -1,13 +1,13 @@
 require_relative '../../../spec_helper'
 
-describe Api::V1::FormulasController do
+describe Api::V1::RecipesController do
 
   before do
-    FactoryGirl.create(:formula)
+    FactoryGirl.create(:recipe)
   end
 
   it 'should get show' do
-    get :show, id: Formula.first.id, format: :json
+    get :show, id: Recipe.first.id, format: :json
     response.should be_success
   end
 

@@ -4,7 +4,7 @@ FactoryGirl.define do
     name "First step"
     description "Lay out two pieces of bread"
     weight 1
-    formula
+    recipe
   end
 
 end

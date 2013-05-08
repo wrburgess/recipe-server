@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(:version => 20130301220049) do
 
-  create_table "formulas", :force => true do |t|
+  create_table "recipes", :force => true do |t|
     t.string   "name",        :null => false
     t.string   "description"
     t.datetime "created_at",  :null => false
@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(:version => 20130301220049) do
     t.string   "name",                       :null => false
     t.string   "description"
     t.integer  "weight",      :default => 0, :null => false
-    t.integer  "formula_id",                 :null => false
+    t.integer  "recipe_id",                  :null => false
     t.datetime "created_at",                 :null => false
     t.datetime "updated_at",                 :null => false
   end

@@ -1,4 +1,4 @@
-name,description,weight,formula_id
+name,description,weight,recipe_id
 step1,stir the pot,1,1
 step2,spice the meat,2,1
 step3,clean the table,3,1

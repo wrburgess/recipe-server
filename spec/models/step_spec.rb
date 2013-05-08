@@ -6,6 +6,6 @@ describe Step do
     FactoryGirl.create(:step).should be_valid
   end
 
-  it { should belong_to(:formula) }
+  it { should belong_to(:recipe) }
 
 end
