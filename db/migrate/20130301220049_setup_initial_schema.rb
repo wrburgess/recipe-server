@@ -1,5 +1,4 @@
 class SetupInitialSchema < ActiveRecord::Migration
-
   def change 
     create_table "recipes", :force => true do |t|
       t.string   "name", :null => false
@@ -16,6 +15,20 @@ class SetupInitialSchema < ActiveRecord::Migration
       t.datetime "created_at", :null => false
       t.datetime "updated_at", :null => false
     end
-  end
 
+    create_table "ingredients", :force => true do |t|
+      t.string "name", :null => false
+      t.string "description"
+      t.datetime "created_at", :null => false
+      t.datetime "updated_at", :null => false
+    end
+
+    create_table "step_ingredients", :force => true do |t|
+      t.integer "step_id", :null => false
+      t.integer "ingredient_id", :null => false
+      t.string "volume"
+      t.datetime "created_at", :null => false
+      t.datetime "updated_at", :null => false
+    end
+  end
 end
