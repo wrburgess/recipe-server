@@ -7,5 +7,7 @@ describe Step do
   end
 
   it { should belong_to(:recipe) }
+  it { should have_many(:ingredients) }
+  it { should have_many(:tools) }
 
 end

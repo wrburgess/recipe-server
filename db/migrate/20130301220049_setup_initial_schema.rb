@@ -29,6 +29,20 @@ class SetupInitialSchema < ActiveRecord::Migration
       t.string "volume"
       t.datetime "created_at", :null => false
       t.datetime "updated_at", :null => false
+    end 
+
+    create_table "tools", :force => true do |t|
+      t.string "name", :null => false
+      t.string "description"
+      t.datetime "created_at", :null => false
+      t.datetime "updated_at", :null => false
+    end
+
+    create_table "step_tools", :force => true do |t|
+      t.integer "step_id", :null => false
+      t.integer "tool_id", :null => false
+      t.datetime "created_at", :null => false
+      t.datetime "updated_at", :null => false
     end
   end
 end
