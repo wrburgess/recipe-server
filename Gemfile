@@ -3,14 +3,17 @@ source 'http://rubygems.org'
 ruby '1.9.3'
 gem 'rails', '3.2.13'
 
+gem 'activeadmin', '0.6.0'
 gem 'active_model_serializers', '0.8.1'
 gem 'json', '1.7.7'
+gem 'meta_search', '1.1.3'
 gem 'newrelic_rpm', '3.6.1.88'
 gem 'pg', '0.15.1'
 gem 'settingslogic', '2.0.9'
 gem 'unicorn', '4.6.2'
 
 group :assets do
+  gem 'coffee-rails', '3.2.2'
   gem 'haml-rails', '0.4.0'
   gem 'sass-rails', '3.2.6'
   gem 'uglifier', '2.1.0'
