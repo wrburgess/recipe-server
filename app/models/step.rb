@@ -3,6 +3,7 @@ class Step < ActiveRecord::Base
 
   belongs_to :recipe
   has_many :step_tools
-  has_many :ingredients, through: :step_ingredients
   has_many :tools, through: :step_tools
+  has_many :step_tools
+  has_many :ingredients, through: :step_ingredients
 end
