@@ -28,6 +28,7 @@ group :test, :development do
 end
 
 group :test do
-  gem 'database_cleaner', '0.9.1'
   gem 'capybara', '2.1.0'
+  gem 'database_cleaner', '0.9.1'
+  gem 'faker', '1.1.2'
 end
