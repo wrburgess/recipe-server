@@ -20,6 +20,7 @@ group :assets do
 end
 
 group :test, :development do
+  gem 'database_cleaner', '0.9.1'
   gem 'debugger', '1.5.0'
   gem 'dotenv-rails', '0.7.0'
   gem 'factory_girl_rails', '4.2.1'
