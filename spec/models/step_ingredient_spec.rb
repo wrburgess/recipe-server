@@ -3,15 +3,18 @@ require 'spec_helper'
 describe StepIngredient do
 
   it 'has a valid factory' do
-    FactoryGirl.create(:step_ingredient).should be_valid
+    step_ingredient = FactoryGirl.create(:step_ingredient)
+    expect(step_ingredient).to be_valid
   end
 
   it 'is invalid without a step_id' do
-     FactoryGirl.build(:step_ingredient, step_id: nil).should_not be_valid
-   end
+    step_ingredient = FactoryGirl.build(:step_ingredient, step_id: nil)
+    expect(step_ingredient).to be_invalid
+  end
 
   it 'is invalid without an ingredient_id' do
-    FactoryGirl.build(:step_ingredient, ingredient_id: nil).should_not be_valid
+    step_ingredient = FactoryGirl.build(:step_ingredient, ingredient_id: nil)
+    expect(step_ingredient).to be_invalid
   end
 
   it { should belong_to(:step) }
