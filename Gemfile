@@ -31,4 +31,5 @@ group :test do
   gem 'capybara', '2.1.0'
   gem 'database_cleaner', '0.9.1'
   gem 'faker', '1.1.2'
+  gem 'launchy', '2.3.0'
 end
