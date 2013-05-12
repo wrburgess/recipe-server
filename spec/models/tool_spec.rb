@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Tool do
 
   it 'has a valid factory' do
-    expect(FactoryGirl.build(:tool)).to be_valid
+    expect(build(:tool)).to be_valid
   end
 
   it { should have_many(:step_tools) }
