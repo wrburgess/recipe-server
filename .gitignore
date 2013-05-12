@@ -18,3 +18,5 @@ log
 _yardoc
 .DS_Store
 .env
+*.sublime-project
+*.sublime-workspace
