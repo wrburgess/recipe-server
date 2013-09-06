@@ -16,6 +16,7 @@ group :assets do
   gem 'coffee-rails', '3.2.2'
   gem 'haml-rails', '0.4.0'
   gem 'sass-rails', '3.2.6'
+  gem 'compass-rails'
   gem 'uglifier', '2.1.0'
 end
 
